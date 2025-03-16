@@ -177,4 +177,5 @@ pyrightconfig.json
 lectures
 *data*
 *junk*
+*wandb*
 
