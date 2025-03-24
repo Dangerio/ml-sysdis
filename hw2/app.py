@@ -27,7 +27,7 @@ def predict_fraud(title, description, company_profile):
     
     
     prediction_proba = model.predict_proba(input_data)[0]
-    fraud_probability = round(float(prediction_proba[1]), 4)
+    fraud_probability = round(float(prediction_proba[1]), 2)
     
     return (
         fraud_probability,
