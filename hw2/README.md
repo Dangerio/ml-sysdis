@@ -11,7 +11,7 @@
 
 Создайте виртальное окружение, установите зависимости и запустите демо:
 ```bash
-python3 -m venv venv && source venv/bin/activate && pip3 install -r requirements.txt && python3 app.py
+bash run_demo.sh
 ```
 
 После успешного запуска вы увидите в терминале:
