@@ -8,4 +8,4 @@ COPY . .
 EXPOSE 8000
 
 # Run your script
-CMD ["bash run_demo.sh"]
+CMD ["bash", "run_demo.sh"]
